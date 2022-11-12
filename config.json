@@ -1,0 +1,14 @@
+{
+    "sqlhost": "185.189.148.163",
+    "sqluser": "dexbot_gc",
+    "sqlpass": "0rK&l!o#nGyS",
+    "sqldb": "dexbot_gc",
+    "AutomationWallet": "0xF1BC72cC7b8c9B711b46d2D1A2cE131c5F167772",
+    "AutomationWalletPK": "privatekeyhere",
+    "WeeklyLotteryAddress": "0x0b15b24954e871df6903ad23ab343f6ff9f119a4",
+    "DailyLotteryAddress": "0x3632f401f53801e4c009c9bf9b69704cb6affba6",
+    "USDCAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "Web3HTTPProvider": "https://eth-mainnet.g.alchemy.com/v2/Rv9duABvc5cwQiTu845NgoWWcaJp94yQ",
+    "healthchecks_io_url": "https://hc-ping.com/1111",
+	"healthchecks_io_url_fail": "https://hc-ping.com/1111/fail"
+}

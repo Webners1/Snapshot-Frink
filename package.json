@@ -1,0 +1,48 @@
+{
+  "name": "erc20-snapshot",
+  "version": "1.0.2",
+  "description": "ERC20 Token Snapshot",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "14.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "erc20-snapshot": "index.js"
+  },
+  "keywords": [
+    "ethereum",
+    "erc20",
+    "token",
+    "snapshot"
+  ],
+  "author": "Chronos OHM",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/chronos-ohm/erc20-snapshot",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chronos-ohm/erc20-snapshot"
+  },
+  "dependencies": {
+    "bignumber.js": "^9.0.1",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.0.0",
+    "graceful-fs": "^4.2.9",
+    "inquirer": "^8.1.2",
+    "linq": "^3.2.4",
+    "mysql2": "^2.3.3",
+    "mysql2-promise": "^0.1.4",
+    "node-fetch": "^3.2.2",
+    "web3": "^1.5.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1"
+  }
+}
